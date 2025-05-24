@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trend in the Aisle - Features</title>
+  <style>
+     body {
+      background: linear-gradient(to bottom right, #000a18, #00586c, #00bcd4);
+      color: #e8e0e0;
+      min-height: 100vh;
+    }
+
+    nav {
+      background-color: #f0f0f0;
+      padding: 10px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #111;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .nav-links a:hover {
+      color: #0077b6;
+    }
+
+    .signout-btn {
+      background-color: #f44336;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .signout-btn:hover {
+      background-color: #d32f2f;
+    }
+
+    .main-section {
+      padding: 60px 30px;
+    }
+
+    .features-box {
+      background-color: #f5f5f5;
+      border-radius: 16px;
+      padding: 30px;
+      color: #070707;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .features-box h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #111;
+    }
+
+    .features-box ul {
+      list-style: disc;
+      padding-left: 20px;
+      font-size: 1.1rem;
+    }
+
+    .features-box li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">Trend in the Aisle</div>
+    <div class="nav-links">
+      <a href="about.html">About</a>
+      <a href="dashboard.html">Features</a>
+      <a href="charts.html">Charts</a>
+      <a href="team.html">Team Members</a>
+      <a href="dashboards.html">View Dashboard</a>
+      <button class="signout-btn" onclick="location.href='index.html'">Sign Out</button>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main-section">
+    <h1 style="text-align:center;">Features</h1>
+    <div class="features-box">
+      <h2>Key Functionalities</h2>
+      <ul>
+        <li>📊 Seasonal demand analysis for food categories</li>
+        <li>🛒 Shelf space optimization insights</li>
+        <li>👥 Customer buying pattern prediction</li>
+        <li>📍 Geo-based preference tracking (by region/city)</li>
+        <li>📈 Dynamic pricing trend visualizations</li>
+        <li>💬 AI-powered personalized promotion strategies</li>
+        <li>📦 Real-time inventory tracking dashboards</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trend in the Aisle - Charts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, #000a18, #00586c, #00bcd4);
+      color: #000;
+      min-height: 100vh;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f0f0f0;
+      padding: 16px 32px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .logout-btn {
+      background: #f44336;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    main {
+      padding: 40px 60px;
+    }
+
+    h1 {
+      color: white;
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .chart-container {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 16px;
+      padding: 24px;
+      flex: 1;
+      min-width: 300px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .chart-container h2 {
+      margin-bottom: 16px;
+      font-size: 20px;
+    }
+
+    .chart-container p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      main {
+        padding: 20px;
+      }
+
+      .content {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Trend in the Aisle</div>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="feature.html">Features</a>
+      <a href="charts.html">Charts</a>
+      <a href="team.html">Team Members</a>
+      <a href="dashboards.html">View Dashboard</a>
+    </nav>
+    <a href="index.html">
+        <button class="logout-btn">Sign Out</button>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Charts & Analytics</h1>
+    <div class="content">
+
+      <!-- Chart 1: Seasonal Demand of Products -->
+      <div class="chart-container">
+        <h2>Seasonal Demand of Products</h2>
+        <p>This chart shows the seasonal demand for food products across different months, helping retailers forecast demand trends.</p>
+      </div>
+
+      <!-- Chart 2: Customer Buying Patterns -->
+      <div class="chart-container">
+        <h2>Customer Buying Patterns</h2>
+        <p>Analyze the preferences of customers in different product categories, allowing retailers to optimize product offerings.</p>
+      </div>
+
+      <!-- Chart 3: Inventory Optimization -->
+      <div class="chart-container">
+        <h2>Inventory Optimization</h2>
+        <p>Displays stock levels for key products, helping to manage inventory efficiently and avoid stockouts or overstocking.</p>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
